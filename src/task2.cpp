@@ -1,3 +1,5 @@
+#include <task2.h>
+
 bool checkPrime(unsigned int value) {
 	bool res=true;
 	if (value == 1)
