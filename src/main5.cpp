@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	char tmp[] = "123,456,789";
+	char tmp[12] = "123,456,789";
 	char *buf = tmp;
 	int N = 0;
 	char **result = nullptr;
@@ -13,6 +13,5 @@ int main()
 	cout << result[0] <<endl;
 	cout << result[1] <<endl;
 	cout << result[2] <<endl;
-	_getch();
     return 0;
 }
