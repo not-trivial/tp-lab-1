@@ -9,9 +9,8 @@ int main()
 	char stry[10] = "000000001";
 	char *x = strx;
 	char *y = stry;
-
 	char *z = sum(x, y);
-	cout << z;
+	cout << z << endl;
 	delete z;
 	return 0;
 }

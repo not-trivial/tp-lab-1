@@ -5,9 +5,7 @@ using namespace std;
 
 int main()
 {
-	unsigned long long n;
-	cout << "enter hbound\n";
-	cin >> n;
-	cout << sumPrime(n);
+	unsigned long long res = sumPrime(2000000);
+	cout << res << endl;
     return 0;
 }
