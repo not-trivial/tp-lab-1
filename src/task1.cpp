@@ -1,11 +1,13 @@
 #include <iostream>
-#include <algorithm>
 #include "task1.h"
 
 unsigned long gcd(unsigned int a, unsigned int b) { //finding great common divisor
+	unsigned int tmp;
 	while (b) {
-		a %= b;
-		swap(a, b);
+		a = a % b;
+		tmp = a;
+		a = b;
+		b = tmp;
 	}
 	return a;
 }
