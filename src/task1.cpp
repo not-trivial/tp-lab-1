@@ -1,4 +1,4 @@
-#include <task1.h>
+#include "task1.h"
 
 unsigned long gcd(unsigned int a, unsigned int b) { //finding great common divisor
 	while (b) {
