@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 #include "task2.h"
 #include "task3.h"
 using namespace std;
