@@ -1,6 +1,7 @@
 #include <iostream>
 #inlcude <cmath>
 #include "task2.h"
+using namespace std;
 
 bool checkPrime(unsigned int value) {
 	bool res=true;
