@@ -4,7 +4,7 @@
 using namespace std;
 
 bool checkPrime(unsigned int value) {
-	bool res=true;
+	bool res = true;
 	if (value == 1)
 		return !res;
 	for (int i = 2; i <= sqrt(value); i++) {
