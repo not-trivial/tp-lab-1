@@ -1,13 +1,11 @@
 #include <iostream>
-#inlcude <cmath>
 #include "task2.h"
-using namespace std;
 
 bool checkPrime(unsigned int value) {
 	bool res = true;
 	if (value == 1)
 		return !res;
-	for (int i = 2; i <= sqrt(value); i++) {
+	for (unsigned int i = 2; i*i <= value); i++) {
 		if (value%i == 0)
 			res = false;
 	}
